@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7a095d3f3f601cd384e55669ff27f8e",
+    "content-hash": "aecfb7573d6b1ebfe9ede67530142aae",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -727,17 +727,20 @@
         },
         {
             "name": "inertiajs/inertia-laravel",
-            "version": "v0.2.5",
+            "version": "v0.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inertiajs/inertia-laravel.git",
-                "reference": "ef618736fb566e5c85d862fa0cf6061422f19046"
+                "reference": "726b1e0d4fc399089dd29820a78e40d1c9aad2eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inertiajs/inertia-laravel/zipball/ef618736fb566e5c85d862fa0cf6061422f19046",
-                "reference": "ef618736fb566e5c85d862fa0cf6061422f19046",
+                "url": "https://api.github.com/repos/inertiajs/inertia-laravel/zipball/726b1e0d4fc399089dd29820a78e40d1c9aad2eb",
+                "reference": "726b1e0d4fc399089dd29820a78e40d1c9aad2eb",
                 "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^5.4|^6.0|^7.0|^8.0"
             },
             "require-dev": {
                 "orchestra/testbench": "~3.0"
@@ -774,7 +777,17 @@
                 "inertia",
                 "laravel"
             ],
-            "time": "2020-02-28T14:50:19+00:00"
+            "support": {
+                "issues": "https://github.com/inertiajs/inertia-laravel/issues",
+                "source": "https://github.com/inertiajs/inertia-laravel/tree/v0.3.6"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/reinink",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-01-08T13:16:40+00:00"
         },
         {
             "name": "laravel/framework",
@@ -6276,5 +6289,5 @@
         "php": "^7.2.5"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }

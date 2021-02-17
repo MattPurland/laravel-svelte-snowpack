@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@inertiajs/inertia-svelte": "./@inertiajs/inertia-svelte.js",
+    "@smui/button": "./@smui/button.js",
+    "svelte/internal": "./svelte/internal.js"
+  }
+}
